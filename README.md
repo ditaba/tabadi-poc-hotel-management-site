@@ -40,3 +40,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - web - http://localhost:3000
 - cms - http://localhost:3000/studio
 - sanity - https://sanity.io/plugins/next-auth-sanity
+- The internet’s source for visuals.
+  Powered by creators everywhere. https://unsplash.com/
