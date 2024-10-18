@@ -42,3 +42,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - sanity - https://sanity.io/plugins/next-auth-sanity
 - The internet’s source for visuals.
   Powered by creators everywhere. https://unsplash.com/
+- https://www.sanity.io/docs/http-mutations#afccc1b9ef78
