@@ -46,3 +46,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - https://checkout.stripe.dev/preview
 - https://nextjs.org/docs/app/building-your-application/routing
 - https://nextjs.org/docs/app/building-your-application/rendering
+- webhook stipe:
+  - https://dashboard.stripe.com/test/webhooks
+  - https://docs.stripe.com/webhooks
+  - https://docs.stripe.com/webhooks/quickstart
+  - https://docs.stripe.com/stripe-cli
+  - https://docs.stripe.com/cli/trigger#trigger-event-checkout_session_completed
+  - https://docs.stripe.com/stripe-vscode
