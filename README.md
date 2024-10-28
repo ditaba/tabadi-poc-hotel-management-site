@@ -43,6 +43,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - The internet’s source for visuals.
   Powered by creators everywhere. https://unsplash.com/
 - https://www.sanity.io/docs/http-mutations#afccc1b9ef78
+- https://next-auth.js.org/getting-started/example
 - https://checkout.stripe.dev/preview
 - https://nextjs.org/docs/app/building-your-application/routing
 - https://nextjs.org/docs/app/building-your-application/rendering
@@ -53,3 +54,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   - https://docs.stripe.com/stripe-cli
   - https://docs.stripe.com/cli/trigger#trigger-event-checkout_session_completed
   - https://docs.stripe.com/stripe-vscode
+
+## Good User Experience:
+
+Khi update isBooked room trên sanity CMS, sau đó click vào room page đang mở, thì trạng thái room được cập nhật.
+
+- This technique - https://swr.vercel.app/docs/revalidation

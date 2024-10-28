@@ -28,8 +28,6 @@ export async function POST(req: Request, res: Response) {
     case checkout_session_completed:
       const session = event.data.object;
 
-      console.log("Session", session);
-
       const {
         // @ts-ignore
         metadata: {
