@@ -26,22 +26,24 @@ export async function POST(req: Request, res: Response) {
   // load our event
   switch (event.type) {
     case checkout_session_completed:
-      const session = event.data.object;
+      const session = event.data.object as Stripe.Checkout.Session;
+
+      const metadata = session.metadata;
+      if (!metadata) {
+        return new NextResponse("Metadata is missing", { status: 400 });
+      }
 
       const {
-        // @ts-ignore
-        metadata: {
-          adults,
-          checkinDate,
-          checkoutDate,
-          children,
-          hotelRoom,
-          numberOfDays,
-          user,
-          discount,
-          totalPrice,
-        },
-      } = session;
+        adults,
+        checkinDate,
+        checkoutDate,
+        children,
+        hotelRoom,
+        numberOfDays,
+        user,
+        discount,
+        totalPrice,
+      } = metadata;
 
       await createBooking({
         adults: Number(adults),
